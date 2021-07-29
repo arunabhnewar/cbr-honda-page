@@ -41,7 +41,11 @@
     border: 1px solid #E76F51;
     outline: none;
 }
-
+.hero-content-image img {
+    width: 90%;
+    margin-right: 0;
+    padding-left: 70px;
+}
 /*-------------------featured bike section-----------------*/
 .featured-text {
     color: #E76F51;
@@ -87,8 +91,8 @@
 }
 /*------------------faq section---------------------------  */
 .faq-image img {
-    width: 100%;
-    padding: 50px 50px;
+    width: 90%;
+    padding: 50px 0px 50px 26px;
 }
 .faq-heading {
     color: #383838;
