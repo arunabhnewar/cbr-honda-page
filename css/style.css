@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------navbar section-----------------*/
+.navbar-bg {
+    background: #264653;
+}
+.btn {
+    background: #E76F51;
+    border-radius: 5px;
+    width: 75px;
+    height: 40px;
+    padding: 5px 15px;
+}
+
+/*----------------hero section------------------*/
+.hero-section-bg {
+    background-color: #264653;
+}
+.hero-btn {
+    background: #E76F51;
+    color: #fff;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;   
+}
+.hero-btn:hover {
+    color: #E76F51;
+    background-color: #fff;
+    border: 1px solid #E76F51;
+    outline: none;
+}
+
+/*-------------------featured bike section-----------------*/
+.featured-text {
+    color: #E76F51;
+}
+.featured-item img {
+    filter: grayscale(1);
+}
+
+/*----------------latest news section---------------------- */
+
+.category-text {
+    font-size: 12px;
+}
+.category-btn {
+    background: #E76F51;
+    color: #fff;
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    outline: none; 
+}
+.category-btn:hover {
+    color: #E76F51;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    border: 1px solid #E76F51;
+    outline: none; 
+}
+
+/*--------------------testimonial section------------------  */
+.testimonial-heading {
+    color: #E76F51;
+}
+.happy-client-img img {
+    width: 100%;
+    padding: 25px 100px;
+}
+.rating-icon .fas {
+    font-size: 16px;
+}
+/*------------------faq section---------------------------  */
+.faq-image img {
+    width: 100%;
+    padding: 50px 50px;
+}
+.faq-heading {
+    color: #383838;
+}
+
+/*---------------services section--------------------------- */
+.fas {
+    font-size: 64px;
+    padding-top: 20px;
+}
+
+/*---------------reports section--------------------------- */
+.reports-btn  {
+    width: 80px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.reports-btn-2 {
+    width: 90px;
+    background-color: #000;
+    color: orange;
+    border: none;
+    outline: none;
+}
+.reports-btn-3 {
+    width: 90px;
+    background-color: #FF4500;
+    color: #fff;
+    border: none;
+    outline: none;
+}
