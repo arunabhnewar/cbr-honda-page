@@ -10,6 +10,24 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*-------------spinner-----------------------*/
+#pre-loader {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000000000;
+}
+
+#pre-loader img {
+    width: 200px;
+}
+
 /*-----------------navbar section-----------------*/
 .navbar-bg {
     background: #264653;
